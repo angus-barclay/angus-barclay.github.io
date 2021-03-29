@@ -265,7 +265,7 @@ g .navtoggle.responsive li {
   margin-right: auto;
   text-align: center;
   background-color: #ffffff;
-  max-width: fit-content;
+  max-width: 1100px;
   box-shadow: 0px 9px 9px 0px rgba(50, 50, 50, 0.35);
 }
 #ink_h1 {
