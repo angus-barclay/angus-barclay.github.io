@@ -20,15 +20,22 @@
     <header>
       <div class="container">
         <div class="navtoggle" id="myNavtoggle">
-        <img class="logo" src="img/logo.png" alt="my logo" />
-        <nav >
-          <ul id="nav_list">
-            <li class="responsive"><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="javascript:void(0);" class="icon " onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-          </ul>
-        </nav>
+          <a><img class="logo" src="img/logo.png" alt="my logo" /></a>
+          <nav>
+            <ul id="nav_list">
+              <li class="responsive"><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
@@ -36,8 +43,7 @@
       <div id="hero">
         <div class="container">
           <h1>
-            My name is Angus Barclay
-            <span>and I am here to help.</span>
+            My name is Angus Barclay and I am here to help.
           </h1>
           <p id="hero_p">
             I'm a UX designer trying to make the world a more usable place.
@@ -59,6 +65,7 @@
                 <img
                   src="img/project_1_ink_tank/project_image/ink_tank_project_desktop.jpg"
                   alt="InkTank Logo"
+                  
                 />
               </picture>
             </div>
@@ -86,10 +93,10 @@
             <div class="col-md-6 col-lg-5">
               <h3>QuikStudy</h3>
               <p>QuikStudy is empowering students to learn new vocabulary.</p>
-              <a href="inktank.html" class="button">Read More</a>
+              <a href="#" class="button">Coming Soon!</a>
             </div>
           </div>
-          <div class="row">
+          <div id="last_row" class="row">
             <div class="col-md-6 col-lg-7">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -209,7 +216,6 @@
             </div>
             <div class="col-md-6 col-lg-5">
               <h3>CSS Animations</h3>
-              
             </div>
           </div>
         </div>
@@ -255,7 +261,6 @@
                   width="25px"
                   xml:space="preserve"
                   xmlns="http://www.w3.org/2000/svg"
-                  
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                 >
                   <path
@@ -312,8 +317,15 @@
         <p>Copyright Angus Barclay 2021</p>
       </div>
     </footer>
-    <script src="https://kit.fontawesome.com/64f8a2e236.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/64f8a2e236.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
