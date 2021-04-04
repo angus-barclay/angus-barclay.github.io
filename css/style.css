@@ -249,11 +249,13 @@ g .navtoggle.responsive li {
   color: #160a47;
 }
 #contact {
-  background-color: #049430;
-  color: #ffffff;
+  background-color: #284707;
+  color: #fffff6;
+  font-family: "Righteous";
 }
 #contact p {
   color: #ffffff;
+  font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
 }
 
 .contact_links {
