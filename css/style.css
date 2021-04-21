@@ -13,7 +13,7 @@ magenta :9c0F5F
 body {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   color: #fffff6;
-  background-color: #1E1E1A;
+  background-color: #1e1e1a;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
@@ -31,8 +31,7 @@ img .center {
   margin-right: auto;
   height: 100%;
 }
-#hero_img{
-  
+#hero_img {
   max-width: 70%;
 }
 p {
@@ -60,13 +59,14 @@ h1 {
 h2 {
   font-size: 1.8em;
   font-weight: 700;
+  font-family: "Righteous";
 }
 h3 {
   font-size: 1.75em;
   font-weight: 600;
 }
 a {
-  color: blue;
+  color: orangered;
   text-decoration: none;
 }
 a:hover,
@@ -81,12 +81,12 @@ a:active {
 .button {
   display: inline-block;
   background-color: #fffff6;
-  color:#284707;
+  color: #284707;
   font-weight: 800;
   text-decoration: none;
   padding: 10px;
   transition: 0.2s opacity;
-  font-family: 'Righteous';
+  font-family: "Righteous";
   margin: 10px;
 }
 .button:hover {
@@ -94,8 +94,6 @@ a:active {
   background-color: #f2671f;
   color: #fffff6;
 }
-
-
 
 .logo {
   max-width: 60px;
@@ -120,7 +118,7 @@ main {
   padding-top: 47px;
   margin: 0px 10px;
   background-color: #292924;
-  padding-bottom: 30px;
+  
 }
 .case_study_section {
   border-bottom: 2px solid #f2671f;
@@ -134,17 +132,16 @@ main {
   display: block;
 }
 .case_study_images {
-  
   margin: 15px auto;
 }
 #hero {
   padding-top: 0;
   display: inline-block;
   width: 100%;
-  
+
   text-align: center;
 }
-.centered{
+.centered {
   margin-block: 0;
 }
 footer h2 {
@@ -242,7 +239,7 @@ g .navtoggle.responsive li {
   margin-block-start: 0px;
   margin: 0 10px;
   font-size: 60px;
-  font-family: 'Righteous';
+  font-family: "Righteous";
   text-align: left;
   color: #fffff6;
 }
@@ -264,7 +261,7 @@ g .navtoggle.responsive li {
 }
 
 .contact_links {
-  color: #ffffff;
+  color:orange;
 }
 
 .ink_tank p,
@@ -273,13 +270,21 @@ g .navtoggle.responsive li {
   padding: 0 10px;
   color: #284707;
 }
+#insight {
+  background-color: #1e1e1a;
+  color: #fffff6;
+  font-size: 30px;
+  margin-left:30px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
 
 .ink_tank {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #fffff6;
   max-width: 1200px;
   box-shadow: 0px 9px 9px 0px rgba(50, 50, 50, 0.35);
 }
@@ -300,6 +305,14 @@ g .navtoggle.responsive li {
   content: "";
   clear: both;
   display: table;
+}
+
+.case_study_row {
+  background-color: #fffff6;
+}
+.context_image {
+  max-width: 100px;
+  max-height: 109px;
 }
 
 @keyframes color-change {
@@ -365,7 +378,7 @@ g .navtoggle.responsive li {
   header {
     text-align: unset;
   }
- 
+
   nav {
     width: auto;
     float: right;
@@ -390,7 +403,7 @@ g .navtoggle.responsive li {
   }
   body {
     font-size: 18px;
-    background-color: #1E1E1A;
+    background-color: #1e1e1a;
   }
   .col-md-6 {
     width: 50%;
@@ -422,11 +435,11 @@ g .navtoggle.responsive li {
   .logo {
     margin-top: 12px;
   }
- 
-  h1{
+
+  h1 {
     font-size: 54px;
   }
-  #work_h2{
+  #work_h2 {
     font-size: 100px;
   }
 }
@@ -441,8 +454,6 @@ g .navtoggle.responsive li {
     margin-top: 12px;
   }
 }
-
-
 
 .social_icons {
   padding-top: 20px;
