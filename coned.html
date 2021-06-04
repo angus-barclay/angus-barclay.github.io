@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -39,7 +39,7 @@
               <li>
                 <a
                   href="javascript:void(0);"
-                  class="icon"
+                  class="Aicon"
                   onclick="menuToggle()"
                   ><i class="fas fa-bars"></i
                 ></a>
@@ -50,67 +50,108 @@
       </div>
     </header>
     <main>
-      <div>
-        <div class="container">
-          <h1 class="about">My Blog</h1>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-7">
+      <div class="con_ed">
+        <div>
+          <div class="image">
             <picture>
               <source
-                srcset="img/blog/coned/behance_cover_mobile.jpg"
+                class="image__img"
+                srcset="img/blog/coned/mobile_overview_xpt.png"
                 media="(max-width:767px)"
               />
               <img
-                src=" img/blog/coned/behance_cover_desktop.jpg"
-                alt="Con Edison Project Overview"
+                class="image__img"
+                src="img/blog/coned/desktop_export_overview_xl.jpg"
+                alt="a view of the website"
               />
             </picture>
-          </div>
-          <div class="col-md-6 col-lg-5">
-            <h3>LiteStudies: Con Edison Edition</h3>
-
-            <p>
-              LiteStudies is a series of bitesize case studies designed to help
-              highlight certain UX practices and theories.
-            </p>
-
-            <p>
-              In about 10 minutes, I was able to create a more straightforward
-              interface that adheres to colorblind standards. Read more, and you
-              may find you learn something that helps you create a better
-              customer experience.
-            </p>
-            <a href="coned.html" class="button">Read More</a>
+            <div class="image__overlay">
+              <div class="image__title">LiteStudies: Con Edison Edition</div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-7">
+        <div>
+          <div class="image_2">
             <picture>
               <source
-                srcset="img/blog/elevators/elevator_overview_mobile.jpg"
+                class="image__img2"
+                srcset="img/blog/coned/mobile_bad_contrast_xpt.png"
                 media="(max-width:767px)"
               />
               <img
-                src="img/blog/elevators/elevator_overview_desktop.jpg"
-                alt="InkTank Logo"
+                class="image__img2"
+                src="img/blog/coned/desktop_export_badcontrast_xl.jpg"
+                alt="showing the bad contrast on con eds bill screen"
               />
             </picture>
+            <div class="image__overlay2">
+              <div>
+                <p class="image__description2">
+                  There is not enough contrast on the action buttons in this
+                  bill. Users that are colorblind will have serious trouble
+                  scheduling their payments, or contacting customer service for
+                  help!
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6 col-lg-5">
-            <h3>LiteStudies: Dumb Elevators</h3>
-            <p>
-              Elevators. What a concept. I have seen elevators in all shapes and
-              sizes. Sometimes it's as simple as hitting a button. You arrive at
-              your destination no problem. Most of the time, it's not that
-              simple. Read more to learn about deciphering these hieroglyphs and
-              how to fix dumb elevators.
-            </p>
+        </div>
 
-            <a href="#" class="button">Read More</a>
+        <div>
+          <div class="image_3">
+            <picture>
+              <source
+                class="image__img3"
+                srcset="img/blog/coned/mobile_good_contrast_xpt.png"
+                media="(max-width:767px)"
+              />
+              <img
+                class="image__img3"
+                src="img/blog/coned/desktop_export_good_contrast_xl.jpg"
+                alt="showing the good contrast on con eds bill screen"
+              />
+            </picture>
+            <div class="image__overlay3">
+              <div>
+                <h1 class="image__title3">The Fast Fix</h1>
+                <p class="image__description3">
+                  Keep what works! They knocked this one out of the park.
+                </p>
+              </div>
+            </div>
           </div>
+        </div>
+        <div class="image_4">
+          <picture>
+            <source
+              class="image__img4"
+              srcset="img/blog/coned/mobile_new_colors_xpt.png"
+              media="(max-width:767px)"
+            />
+            <img
+              class="image__img4"
+              src="img/blog/coned/desktop_export_new_colors_xl.jpg"
+              alt="showing the new colors"
+            />
+          </picture>
+          <div class="image__overlay4">
+            <div>
+              <h1 class="image__title4">Updated Colors</h1>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <picture>
+            <source
+              srcset="img/blog/coned/mobile_final_xpt.png"
+              media="(max-width:767px)"
+            />
+            <img
+              src="img/blog/coned/desktop_export_final_xl.jpg"
+              alt="showing the final product"
+            />
+          </picture>
         </div>
       </div>
     </main>
